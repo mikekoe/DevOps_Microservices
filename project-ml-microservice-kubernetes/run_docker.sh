@@ -4,11 +4,10 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=devopsmachine . 
+docker build --tag=devopsmachiner .
 # Step 2: 
 # List docker images
-docker image ls
-
+docker image List
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 devopsmachine
+docker run -p 8000:80 devopsmachiner
